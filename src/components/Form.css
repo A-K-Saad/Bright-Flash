@@ -1,0 +1,109 @@
+.form {
+  max-width: 400px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.users-container {
+  max-width: 400px;
+  height: calc(100vh - 6rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-form {
+  max-height: 22rem;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.fa-eye,
+.fa-eye-slash {
+  position: absolute;
+  height: 13px;
+  top: 13.8rem;
+  right: 3rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fa-envelope,
+.fa-lock,
+.fa-signature,
+.fa-link {
+  position: absolute;
+  display: flex !important;
+  align-items: center;
+  padding: 0 15px;
+  background: #4c586c;
+  margin: 8px auto;
+  color: #fff;
+  left: 2rem;
+  height: 40.5px;
+}
+.fa-lock {
+  top: 12.47rem;
+}
+.fa-link {
+  top: 9rem;
+}
+.fa-envelope {
+  top: 5.5rem;
+}
+.fa-signature {
+  top: 2rem;
+}
+.avatar-pic {
+  width: 100px;
+  margin: auto;
+  position: absolute;
+  top: -4.5rem;
+  border-radius: 50%;
+}
+.email-icon {
+  top: 5.25rem;
+}
+.password-icon {
+  top: 8.75rem;
+}
+.eye-icon {
+  top: 10rem;
+}
+.form-bg {
+  background: #0e0f3e82;
+}
+.profile-pic {
+  width: 7rem;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 688px) {
+  .form {
+    height: auto;
+  }
+  .avatar-pic {
+    position: static;
+  }
+  .fa-lock {
+    top: 18.72rem;
+  }
+  .fa-link {
+    top: 15.2rem;
+  }
+  .fa-envelope {
+    top: 11.72rem;
+  }
+  .fa-signature {
+    top: 8.24rem;
+  }
+  .fa-eye,
+  .fa-eye-slash {
+    top: 20.1rem;
+  }
+  .password-icon {
+    top: 8.7rem;
+  }
+  .eye-icon {
+    top: 10rem;
+  }
+}

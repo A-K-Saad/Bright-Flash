@@ -1,0 +1,46 @@
+.blank {
+  width: 100%;
+  height: calc(100vh - 6rem);
+}
+.upload-filed {
+  width: calc(100% - 3.5rem);
+}
+.upload-btn {
+  width: 3.5rem;
+  font-size: 23px;
+  height: 48px;
+}
+.blank-pic {
+  width: 18rem;
+  height: 12rem;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+.blank-pic img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin: auto;
+}
+.pic-div {
+  max-height: 11rem;
+  overflow: hidden;
+  height: 11rem;
+  position: relative;
+  background: #000;
+}
+.pic-div img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: auto;
+}

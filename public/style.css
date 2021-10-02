@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(#ffffff26, #11162ad9),
+    url(https://images2.alphacoders.com/527/52750.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+.wrapper {
+  width: 85%;
+  margin: auto;
+}
+@media only screen and (max-width: 688px) {
+  .wrapper {
+    width: 90%;
+  }
+}
